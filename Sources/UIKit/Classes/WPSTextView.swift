@@ -170,7 +170,7 @@ private extension WPSTextView {
 
 internal extension WPSTextView {
   
-  internal func textChanged(_ sender: AnyObject) {
+  @objc internal func textChanged(_ sender: AnyObject) {
     setNeedsDisplay()
   }
   
